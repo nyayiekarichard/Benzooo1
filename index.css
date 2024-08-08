@@ -1,4 +1,4 @@
-/* General styles */
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -11,17 +11,17 @@ body {
   margin: 0 auto;
 }
 
-/* Header styles */
+
 header {
   background-color: #000;
   color: #fff;
-  padding: 10px 0; /* Adjusted padding */
+  padding: 10px 0; 
 }
 
 header .container {
   display: flex;
   align-items: center;
-  justify-content: flex-start; /* Changed from space-between to flex-start */
+  justify-content: flex-start; 
 }
 
 header h1 {
@@ -33,14 +33,14 @@ header h1 {
 header nav {
   display: flex;
   align-items: center;
-  margin-left: auto; /* Ensure nav aligns to the right */
+  margin-left: auto;
 }
 
 header nav img {
-  width: 200px; /* Adjust width as needed */
+  width: 200px;
   height: auto;
   margin-right: 20px;
-  align-self: flex-start; /* Aligns the logo to the top */
+  align-self: flex-start; 
   position: relative;
   right: 400px;
 }
@@ -50,7 +50,7 @@ header nav ul {
   padding: 0;
   margin: 0;
   display: flex;
-  align-items: flex-end; /* Align the ul with the bottom of the nav */
+  align-items: flex-end;
   position: relative;
   right: 180px;
 }
